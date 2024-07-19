@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="nav">
           <Link to="/" >Overview</Link>
           <Link to="/Project">List</Link>
-          <Link to="/Tracker" onClick={() => className = "active"}>Board</Link>
+          <Link to="/Tracker" >Board</Link>
           <Link to="/Timeline">Timeline</Link>
           <Link to="/Calendar">Calendar</Link>
           <Link to="#">Dashboard</Link>
