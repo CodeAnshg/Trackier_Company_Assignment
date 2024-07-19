@@ -1,11 +1,12 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import SprintLogo from '../../assets/SprintLogo.jpg'
 
 const Navbar = () => {
   return (
     <div className="header">
       <div className="title">
-        <img src="./src/assets/SprintLogo.jpg" alt="Phone Icon" id='logo' />
+        <img src={SprintLogo} alt="Phone Icon" id='logo' />
       <div>
         <h2>Sprint Plans</h2>
         <div className="nav">
